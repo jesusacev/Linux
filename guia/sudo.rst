@@ -2,6 +2,7 @@ Explicación de Sudo
 =====================================
 
 1. sudo
++++++++++++
 
 Es un paquete que te permite realizar los comandos como root. Esto lo hace autorizando el acceso a los binarios de root, que estan ubicados en el directorio /sbin y a cualquier otro binario que sea propiedad de root. Tiene un archivo de configuración que está ubicado en la ruta /etc/sudoers, el cual debe tener una permisología exclusiva de 440, que si no la tiene no funcionará. Se debe editar preferiblemente con el comando visudo.
 
