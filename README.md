@@ -2,4 +2,4 @@
 Documentacion de tips de kernel linux 
 
 
-* [Explicacion sudo](sudo.rst)
+* [Explicacion sudo](guia/sudo.rst)
