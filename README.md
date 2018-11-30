@@ -1,4 +1,4 @@
-# Consis 
+# Linux 
 Documentacion de tips de kernel linux 
 
 
