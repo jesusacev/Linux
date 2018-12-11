@@ -13,13 +13,13 @@ Asignar un nuevo disco a una maquina virtual
 .. image:: ../imagenes/creardisco/003.png
 
 
-- Nos abre una ventana que a donde seleccionaremos crear nuevo disco:
+- Nos abre una ventana a donde seleccionaremos crear nuevo disco:
 
 
 .. image:: ../imagenes/creardisco/004.png
 
 
-- Seleccionamos el tipo de archivo en este VDI:
+- Seleccionamos el tipo de archivo, en este caso VDI:
 
 
 .. image:: ../imagenes/creardisco/005.png
