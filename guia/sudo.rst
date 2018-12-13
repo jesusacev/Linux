@@ -1,4 +1,4 @@
-Explicación de Sudo
+Explicación de Sudo y Su
 =====================================
 
 1. sudo
