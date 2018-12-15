@@ -5,11 +5,11 @@ Habilitar Ventanas X en Linux.
 
 - Debemos instalar los paquetes necesarios:
 
- - Instalando xorg-x11-server-Xorg.x86_64.::
+  Instalando xorg-x11-server-Xorg.x86_64.::
 
 	# yum -y install xorg-x11-server-Xorg.x86_64
 	
- - Instalando xorg-x11-xauth.::
+  Instalando xorg-x11-xauth.::
 
 	# yum install xorg-x11-xauth
 
