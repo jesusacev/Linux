@@ -13,7 +13,7 @@ Habilitar Ventanas X en Linux.
 
 	# yum install xorg-x11-xauth
 
-- Luego se debe instalar el paquete que contiene xclock para certificar el funcionamiento de las x. Como no recuerdo el nombre del paquete, hacemos una busqueda::
+- Luego se debe instalar el paquete que contiene xclock para certificar el funcionamiento de las x. Como no recuerdo el nombre del paquete, hacemos una busqueda y lo instalamos::
 
 	# yum provides '*/xclock'
 	Complementos cargados:fastestmirror
