@@ -25,7 +25,7 @@ El locale nos permite realizar la configuración regional del sistema. Esta nos 
 	LC_ALL=
 
 
-- Si desea configurar una configuración regional diferente en su sistema, puede hacerlo utilizando el comando localectl. Primero, liste las localidades disponibles::
+- Si desea realizar una configuración regional diferente en su sistema, primero debe listar las localidades disponibles con el parámetro -a::
 
 
 	# locale -a
@@ -59,7 +59,7 @@ El locale nos permite realizar la configuración regional del sistema. Esta nos 
 	...
 
 
-- La lista debe ser muy larga. Si desea filtrar las configuraciones regionales en inglés, puede hacerlo usando el siguiente comando::
+- La lista debe ser muy larga. Si desea filtrar las configuraciones regionales dependiendo de las iniciales del idioma que desee, puede hacerlo usando el siguiente comando::
 
 
 	# locale -a | grep en_
@@ -91,7 +91,7 @@ El locale nos permite realizar la configuración regional del sistema. Esta nos 
 	jue ene 17 10:16:46 -04 2019
 
 
-- Como podemos observar tanto el mes como el año no los retorna en español, debido a que esa es la configuración actual.
+- Como podemos observar tanto el mes como el año nos lo retorna en español, debido a que esa es la configuración actual.
 
 
 - Vuelvo a ejecutar el comando locale::
@@ -113,13 +113,13 @@ El locale nos permite realizar la configuración regional del sistema. Esta nos 
 	LC_ALL=
 
 
-- Como podemos observar hay una variable llamada LC_ALL que si se modifica, entonces modificará todas las variables que empiezan por LC::
+- Si observamos hay una variable llamada LC_ALL que si se modifica, entonces modificará todas las variables que empiezan por LC::
 
 	
 	$ export LC_ALL="en_US.utf8"
 
 
-- Y si volvemos a ejecutar el comando locale podemos observar como se modifican todas las variables que comienzar por LC con la nueva configuración regional::
+- Y si nuevamente ejecutamos el comando locale podemos observar como se modifican todas las variables que comienzar por LC con la nueva configuración regional::
 
 
 	LANG=es_VE.UTF-8
@@ -169,7 +169,5 @@ El locale nos permite realizar la configuración regional del sistema. Esta nos 
 - Si queremos que el cambio permanezca al reiniciar el sistema operativo, debemos declarar las variables de entorno en el bash_profile en caso de hacerse para un usuario en específico, o en el /etc/profile para todos los usuarios del sistema.
 
 
-- Dependiendo de la configuración regional del sistema podremos instalar aplicaciones de terceros en el idioma de nuestro gusto. Esto se hace como premisa, ya que muchos productos lanzan primero sus actualizaciones en inglés, antes que en otros idiomas.
-
-
+- Dependiendo de la configuración regional del sistema podremos instalar aplicaciones de terceros en el idioma de nuestro gusto.
 
